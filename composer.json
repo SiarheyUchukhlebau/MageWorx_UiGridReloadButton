@@ -1,0 +1,21 @@
+{
+    "name": "mageworx/module-ui-grid-reload-button",
+    "description": "Adds refresh button to each ui grid in the adminhtml scope",
+    "require": {
+        "magento/module-ui": ">=101.1"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageWorx\\UiGridReloadButton\\": ""
+        }
+    }
+}
